@@ -1,0 +1,20 @@
+header{
+    text-align: center;
+    background-color: black;
+}
+body{
+    color: antiquewhite;
+    background-color: black;
+}
+.condicionador{
+    width: 200px;
+}
+.creme{
+    width: 200px;
+}
+.toca{
+    width: 200px;
+}
+.pente{
+    width: 200px;
+}
