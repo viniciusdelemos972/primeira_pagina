@@ -18,3 +18,12 @@ body{
 .pente{
     width: 200px;
 }
+.lapis{
+    width: 200px;
+}
+.facial{
+    width: 200px;
+    position: relative;
+    left: 45%;
+    bottom: 1418px;
+}
