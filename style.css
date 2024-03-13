@@ -25,5 +25,54 @@ body{
     width: 200px;
     position: relative;
     left: 45%;
-    bottom: 1418px;
+    bottom: 1100px;
+}
+.texto{
+    position: relative;
+    bottom: 34px;
+    right: 45px;
+    color: blue;
+}
+.unha{
+    width: 200px;
+    position: relative;
+    left: 45%;
+    bottom: 1050px
+}
+
+
+
+
+*{
+    margin: 0%;
+}
+ body{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "aside main main"
+    "footer footer footer"
+
+ }
+
+ header{
+    grid-area: header;
+    background-color: blue;
+
+
+ }
+
+ aside{
+    grid-area: aside;
+    background-color: turquoise;
+    width: 78px;
+ }
+ 
+ main{
+    grid-area: main;
+    background:linear-gradient(black,red) ;
+
+ }
+ footer{
+    background-color: darkturquoise;
 }
