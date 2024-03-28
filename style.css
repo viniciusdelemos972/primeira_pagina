@@ -23,13 +23,8 @@ body{
 .lapis{
     width: 200px;
 }
-.facial{
-    width: 200px;
-    position: relative;
-    left: 45%;
-    bottom: 700px
     
-}
+
 .texto{
     position: relative;
     bottom: 34px;
@@ -110,6 +105,7 @@ button{
 
  }
  footer{
-    background-color: pink
-
-}
+    background-color: pink}
+    .facial{
+        width: 300px;
+    }
