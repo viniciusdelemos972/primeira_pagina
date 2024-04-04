@@ -1,0 +1,92 @@
+header{
+    text-align: center;
+    background-color:pink;
+}
+body{
+    color: black;
+    background-color: red;
+}
+
+
+.texto{
+    position: relative;
+    bottom: 34px;
+    right: 45px;
+    color: 
+}
+
+.elementomae{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+.card{
+    border: 2px solid red;
+    width: 275px;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    transition: 0.5s;
+}
+.card:hover{
+    background-color: palevioletred;
+}
+.card img{
+    width: 240px;
+    border-radius: 10px;
+} 
+section div button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+button{
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+*{
+    margin: 1px
+}
+body{
+   background-color: pink;   
+   display: grid;
+   grid-template-areas: 
+   "header header header"
+   "aside main main"
+   "footer footer footer";
+    grid-template-columns: 200px auto auto;
+    grid-template-rows: 250px auto 250px;
+}
+
+header{
+    grid-area: header;
+
+}
+
+aside{
+    grid-area: aside;
+    background-color: palevioletred;
+}
+ 
+main{
+    grid-area: main;
+    background-color: pink
+
+}
+footer{
+    grid-area: footer;
+    background-color: pink
+}
+
