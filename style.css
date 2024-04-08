@@ -1,6 +1,7 @@
 header{
     text-align: center;
     background-color:pink;
+    position: relative;
 }
 body{
     color: black;
@@ -72,6 +73,7 @@ body{
 
 header{
     grid-area: header;
+    position: relative;
 
 }
 
@@ -89,4 +91,10 @@ footer{
     grid-area: footer;
     background-color: pink
 }
+.zap{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
 
+}
