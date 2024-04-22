@@ -1,7 +1,6 @@
 header{
     text-align: center;
     background-color:pink;
-    position: relative;
 }
 body{
     color: black;
@@ -73,7 +72,6 @@ body{
 
 header{
     grid-area: header;
-    position: relative;
 
 }
 
@@ -91,10 +89,32 @@ footer{
     grid-area: footer;
     background-color: pink
 }
-.zap{
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 50px;
+header nav li{
+    display: inline;
+}
 
+header nav{
+    border: 2PX;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+header nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: palevioletred;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+}
+header a:hover{
+    background-color:black;
+    transition: 1.0s;
+}
+.botao{
+    border-radius: 100px;
+    width: 90px;
+    height: 25px;
+    color: blue;
 }
