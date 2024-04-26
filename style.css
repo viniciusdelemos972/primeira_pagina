@@ -87,8 +87,17 @@ main{
 }
 footer{
     grid-area: footer;
-    background-color: pink
+    height: 225px;
+    position: relative;
+    background-color: pink;
+    width: 300px;
+    
 }
+
+.foot img{
+    width: 50px;
+}
+
 header nav li{
     display: inline;
 }
