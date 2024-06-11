@@ -1,0 +1,76 @@
+{
+    margin:0;
+    padding:0;
+}
+body{
+    display:grid;
+    grid-template-areas:
+    "cabeca"
+    "meio"
+    "pe";
+    grid-template-columns: auto;
+    grid-auto-rows: auto auto auto;
+    
+}
+header{
+    background-color: palevioletred;
+    text-align: center;
+    align-items: center;
+}
+main{
+    background-color: palevioletred;
+
+}
+footer{
+    background-color: palevioletred;
+}
+.caixa_mae{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: palevioletred;
+    transition: 1s;
+}
+.img_card{
+    width: 210px;
+    height: 230px;
+
+}
+.card a{
+    border-radius: 30px;
+    background-color: antiquewhite;
+    display: block;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: palevioletred;
+    transition: 1s;
+}
+.card a:hover{
+    background-color: palevioletred;
+    color: antiquewhite;
+}
+main button{
+    background-color: pink;
+    color: purple;
+    border-radius: 7px;
+    margin: 5px;
+    border: none;
+}
+.creminho{
+    width: 500px;
+    height: 500px;
+
+
+}

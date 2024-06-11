@@ -127,3 +127,25 @@ header a:hover{
     height: 25px;
     color: blue;
 }
+.instagram{
+    width: 35px;
+    position: absolute;
+    bottom: 65px;
+    right: 100px;
+}
+
+.facebook{
+    width: 45px;
+    position: absolute;
+    bottom: 65px;
+    right: 100px;
+
+}
+
+.yyy{
+    width: 35px;
+    position: absolute;
+    bottom: 35px;
+    right: 97px;
+   
+}
