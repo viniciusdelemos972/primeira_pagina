@@ -50,12 +50,6 @@ button{
     border-radius: 5px;
 }
 
-
-
-
-
-
-
 *{
     margin: 1px
 }
@@ -87,11 +81,9 @@ main{
 }
 footer{
     grid-area: footer;
-    height: 225px;
     position: relative;
-    background-color: pink;
-    width: 300px;
-    
+    background-color: palevioletred;
+    border: solid red 2px;
 }
 
 .foot img{
@@ -148,4 +140,11 @@ header a:hover{
     bottom: 35px;
     right: 97px;
    
+}
+.isa{
+    justify-content: space-around;
+}
+.colunas{
+    display: flex;
+    justify-content: space-around;
 }
